@@ -1,0 +1,11 @@
+[package]
+name = "host"
+version = "0.0.0"
+
+[addresses]
+StarcoinFramework = "0x1"
+admin = "0xc14fBC19F2eb428ae9AE0E7A23797589"
+
+
+[dependencies]
+StarcoinFramework = { git = "https://github.com/starcoinorg/starcoin-framework.git", rev = "85c1f6dac5a407b47b7cfc03e0280887dfd1725e" }
